@@ -102,32 +102,32 @@ This project is [MIT](./MIT.md) licensed.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[pr-shield]: https://img.shields.io/github/issues-pr/abel-blue/mobile-first?style=flat-square&logo=fork&labelColor=9F2B68
+[pr-shield]: https://img.shields.io/github/issues-pr/abel-blue/mobile-first?style=for-the-badge&logo=fork&labelColor=9F2B68
 [pr-url]: https://github.com/abel-blue/mobile-first
 
 <!--  -->
 
-[forks-shield]: https://img.shields.io/github/forks/abel-blue/mobile-first?style=flat-square&logo=fork&labelColor=bb0000
+[forks-shield]: https://img.shields.io/github/forks/abel-blue/mobile-first?style=for-the-badge&logo=fork&labelColor=bb0000
 [forks-url]: https://github.com/abel-blue/mobile-first
 
 <!--  -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/abel-blue/mobile-first.svg?style=flat-square&logo=contributors&labelColor=008c9e
+[contributors-shield]: https://img.shields.io/github/contributors/abel-blue/mobile-first.svg?style=for-the-badge&logo=contributors&labelColor=008c9e
 [contributors-url]: https://github.com/abel-blue/mobile-first/graphs/contributors
 
 <!--  -->
 
-[stars-shield]: https://img.shields.io/github/stars/abel-blue/mobile-first?style=flat-square&logo=stars&labelColor=bada55
+[stars-shield]: https://img.shields.io/github/stars/abel-blue/mobile-first?style=for-the-badge&logo=stars&labelColor=bada55
 [stars-url]: https://github.com/abel-blue/mobile-first/stargazers
 
 <!--  -->
 
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square&logo=issues&labelColor=bada55
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge&logo=issues&labelColor=bada55
 [issues-url]: https://github.com/abel-blue/mobile-first/issues
 
 <!--  -->
 
-[license-shield]: https://img.shields.io/github/license/abel-blue/mobile-first?style=flat-square&logo=license&labelColor=3500d3
+[license-shield]: https://img.shields.io/github/license/abel-blue/mobile-first?style=for-the-badge&logo=license&labelColor=3500d3
 [license-url]: https://github.com/abel-blue/mobile-first/blob/main/MIT.md
 
 <!--  -->
