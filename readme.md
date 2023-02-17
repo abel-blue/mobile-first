@@ -2,36 +2,33 @@
 
 <h1 align="center" style="font-family: Serif; font-size: 3.5em;">Mobile First Design</h1>
 
-[![Pull Requests][pr-shield]][pr-url]
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-
-<div align="center">
-  <img src="https://studio.uxpincdn.com/studio/wp-content/uploads/2022/03/Mobile-UI-%E2%80%93-What-it-is.png.webp" alt="logo"/>
-  <br/>
-
-</div>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
   - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Mobile First Design <a name="about-project"></a>
+# 📖 About the Project <a name="about-project"></a>
 
 > Approach to developing websites in which the mobile-enabled version of the website is given priority over its desktop version
 
@@ -41,6 +38,24 @@
 - Stylelint
 - Webhint
 - HTML & CSS
+
+### Tech Stack <a name="tech-stack"></a>
+
+- HTML
+- CSS
+- Stylelint
+- Webhint
+- Docker
+
+### Key Features <a name="key-features"></a>
+
+> The key features of the application includes
+
+- **Responsive**
+- **Simplicity**
+- **Intuitive navigation**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
@@ -85,6 +100,38 @@ Start python server and open http://localhost:8000
 - GitHub: [@abel-blue](https://github.com/abel-blue)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/abel-mitiku-2b95bb215/)
 
+## 🔭 Future Features <a name="future-features"></a>
+
+> 3 features that I will add to the project.
+
+- **Make it responsive on a desktop**
+- **Add Javascript to interact more on the web app**
+- **Add Installation mechanism for the web app**
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/abel-blue/mobile-first/issues).
+
+## ⭐️ Show your support <a name="support"></a>
+
+> Support me if you like the project
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+> Add at least 2 questions new developers would ask when they decide to use this project.
+
+- **How to make a responsive web app**
+
+  - employing specific, targeted media-queries
+
+- **How to run linter setup on html & css**
+
+  - by using `npx hint .` and `npx stylelint "**/*.{css,scss}"`
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
@@ -92,30 +139,3 @@ Start python server and open http://localhost:8000
 This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- MARKDOWN LINKS & IMAGES -->
-
-[pr-shield]: https://img.shields.io/github/issues-pr/abel-blue/mobile-first?style=for-the-badge&logo=fork&labelColor=bada55&color=282828
-[pr-url]: https://github.com/abel-blue/mobile-first
-
-<!--  -->
-
-[forks-shield]: https://img.shields.io/github/forks/abel-blue/mobile-first?style=for-the-badge&logo=fork&labelColor=bada55&color=ff6e12
-[forks-url]: https://github.com/abel-blue/mobile-first
-
-<!--  -->
-
-[contributors-shield]: https://img.shields.io/github/contributors/abel-blue/mobile-first.svg?style=for-the-badge&logo=contributors&labelColor=bada55&color=e34234
-[contributors-url]: https://github.com/abel-blue/mobile-first/graphs/contributors
-
-<!--  -->
-
-[stars-shield]: https://img.shields.io/github/stars/abel-blue/mobile-first?style=for-the-badge&logo=stars&labelColor=bada55
-[stars-url]: https://github.com/abel-blue/mobile-first/stargazers
-
-<!--  -->
-
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge&logo=issues&labelColor=bada55&color=282828
-[issues-url]: https://github.com/abel-blue/mobile-first/issues
-
-<!--  -->
