@@ -28,7 +28,7 @@
 }
 
 .body h2 {
-  color: #30a02c;
+  color: #36b37e;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -42,7 +42,7 @@
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 21px;
   line-height: 28px;
   margin-top: 40px;
 }
@@ -60,7 +60,7 @@
 .icon a {
   margin: 10px;
   color: #505f79;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .icon a:hover {
@@ -175,6 +175,11 @@
 
   form {
     width: 60%;
+  }
+
+  .white-color {
+    color: rgb(129, 129, 129);
+    size: 200%;
   }
 }
 
