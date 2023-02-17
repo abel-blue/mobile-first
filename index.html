@@ -9,6 +9,10 @@
     <meta name="description" content="mobile web app design" />
     <link rel="stylesheet" href="style.css" />
     <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700"
+      rel="stylesheet"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap"
       rel="stylesheet"
     />
@@ -303,18 +307,40 @@
             I'm always interested in hearing about new projects, so if you'd
             like to chat please get intouch
           </h3>
-          <form action="/action_page.php">
-            <label for="fname">Full name:</label><br />
-            <input type="text" id="fname" name="fname" value="John" /><br />
-            <input
-              type="text"
-              id="lname"
-              name="lname"
-              value="Doe"
-            /><br /><br />
-            <input type="submit" value="Submit" />
+          <form action="/" class="decor">
+            <div class="form-left-decoration"></div>
+            <div class="form-right-decoration"></div>
+            <div class="circle"></div>
+            <div class="form-inner">
+              <input type="text" placeholder="Username" />
+              <input type="email" placeholder="Email" />
+              <textarea placeholder="Message..." rows="5"></textarea>
+              <button type="submit" href="/">Get in touch</button>
+            </div>
           </form>
         </div>
+        <section>
+          <div class="icon">
+            <ul>
+              <li>
+                <a href="https://www.linkedin.com/in/abel-mitiku-2b95bb215/"
+                  ><i class="fa-brands fa-linkedin-in"></i
+                ></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="https://www.github.com/abel-blue"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-solid fa-envelope"></i></a>
+              </li>
+            </ul>
+          </div>
+        </section>
       </section>
     </footer>
   </body>
