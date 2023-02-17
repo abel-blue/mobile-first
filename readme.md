@@ -1,16 +1,15 @@
 <a name="readme-top"></a>
 
-<h1 align="center"><b>Mobile First Design</b></h1>
+<div align="center" style="font-family: Serif; font-size: 3.5em;">Mobile First Design</div>
 
 [![Pull Requests][pr-shield]][pr-url]
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 
 <div align="center">
-  <img src="https://webrain.com.br/wp-content/uploads/2018/03/mobile-first-webrain.jpg" alt="logo"/>
+  <img src="https://studio.uxpincdn.com/studio/wp-content/uploads/2022/03/Mobile-UI-%E2%80%93-What-it-is.png.webp" alt="logo"/>
   <br/>
 
 </div>
@@ -49,8 +48,6 @@
 
 - [Live Demo Link](https://abel-blue.github.io/mobile-first/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -81,16 +78,12 @@ Start python server and open http://localhost:8000
   http://localhost:8000
 ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- AUTHORS -->
 
 ## 👤 Author <a name="authors"></a>
 
 - GitHub: [@abel-blue](https://github.com/abel-blue)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/abel-mitiku-2b95bb215/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
@@ -102,17 +95,17 @@ This project is [MIT](./MIT.md) licensed.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[pr-shield]: https://img.shields.io/github/issues-pr/abel-blue/mobile-first?style=for-the-badge&logo=fork&labelColor=9F2B68
+[pr-shield]: https://img.shields.io/github/issues-pr/abel-blue/mobile-first?style=for-the-badge&logo=fork&labelColor=bada55&color=282828
 [pr-url]: https://github.com/abel-blue/mobile-first
 
 <!--  -->
 
-[forks-shield]: https://img.shields.io/github/forks/abel-blue/mobile-first?style=for-the-badge&logo=fork&labelColor=bb0000
+[forks-shield]: https://img.shields.io/github/forks/abel-blue/mobile-first?style=for-the-badge&logo=fork&labelColor=bada55&color=ff6e12
 [forks-url]: https://github.com/abel-blue/mobile-first
 
 <!--  -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/abel-blue/mobile-first.svg?style=for-the-badge&logo=contributors&labelColor=008c9e
+[contributors-shield]: https://img.shields.io/github/contributors/abel-blue/mobile-first.svg?style=for-the-badge&logo=contributors&labelColor=bada55&color=e34234
 [contributors-url]: https://github.com/abel-blue/mobile-first/graphs/contributors
 
 <!--  -->
@@ -122,12 +115,7 @@ This project is [MIT](./MIT.md) licensed.
 
 <!--  -->
 
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge&logo=issues&labelColor=bada55
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge&logo=issues&labelColor=bada55&color=282828
 [issues-url]: https://github.com/abel-blue/mobile-first/issues
-
-<!--  -->
-
-[license-shield]: https://img.shields.io/github/license/abel-blue/mobile-first?style=for-the-badge&logo=license&labelColor=3500d3
-[license-url]: https://github.com/abel-blue/mobile-first/blob/main/MIT.md
 
 <!--  -->
