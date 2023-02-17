@@ -311,3 +311,48 @@
   color: blue;
   background: whitesmoke;
 }
+
+.card {
+  margin: 30px;
+  background: #ebf0ee;
+  height: 350px;
+  width: 300px;
+  border-radius: 20px;
+}
+
+.card h1 {
+  color: #344563;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.card ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.card li {
+  border: 1px solid #fff;
+  padding: 6px;
+  border-radius: 4px;
+  background: #fff;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #36b37e;
+}
+
+.card li:hover {
+  cursor: pointer;
+  color: blue;
+  background: cyan;
+}
