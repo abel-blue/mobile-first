@@ -153,6 +153,22 @@
       "grid"
       "grid";
   }
+
+  .abt-card {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+      "card"
+      "card"
+      "card";
+  }
+
+  .abt-main {
+    background-image: url(./assets/1-\ about\ me-mobile.png);
+    background-repeat: no-repeat;
+    background-position: right 0%;
+  }
 }
 
 .header h1 {
