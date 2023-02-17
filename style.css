@@ -129,6 +129,7 @@
 
   .pointer li {
     list-style-type: none;
+    color: white;
   }
 
   .pointer a:hover {
@@ -138,6 +139,7 @@
 
   .pointer {
     margin-top: 80px;
+    color: white;
   }
 
   .page-1 {
