@@ -125,22 +125,17 @@
     background: blue;
     transform: rotateX(25deg);
   }
-}
 
-.pointer li {
-  list-style-type: none;
-}
+  .pointer li {
+    list-style-type: none;
+  }
 
-.pointer a {
-  color: grey;
-  font-size: 20px;
-}
+  .pointer a:hover {
+    cursor: pointer;
+    color: rgb(190, 190, 214);
+  }
 
-.pointer a:hover {
-  cursor: pointer;
-  color: blue;
-}
-
-.pointer {
-  margin-top: 80px;
+  .pointer {
+    margin-top: 80px;
+  }
 }
