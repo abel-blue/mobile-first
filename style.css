@@ -27,7 +27,7 @@
 }
 
 .body h2 {
-  color: #5d4da8;
+  color: #30a02c;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -69,7 +69,6 @@
 
 @media (max-width: 770px) {
   .h-menu {
-    display: block;
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
@@ -79,7 +78,7 @@
   }
 
   .body {
-    background-image: url(./assets/background-contact-shape1.svg);
+    background-image: url(./assets/header-img.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
@@ -126,4 +125,22 @@
     background: blue;
     transform: rotateX(25deg);
   }
+}
+
+.pointer li {
+  list-style-type: none;
+}
+
+.pointer a {
+  color: grey;
+  font-size: 20px;
+}
+
+.pointer a:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+.pointer {
+  margin-top: 80px;
 }
