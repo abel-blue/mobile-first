@@ -4,8 +4,6 @@
 
 <!-- TABLE OF CONTENTS -->
 
-<!-- TABLE OF CONTENTS -->
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
