@@ -45,3 +45,24 @@
   line-height: 28px;
   margin-top: 40px;
 }
+
+.icon {
+  margin-top: 40px;
+}
+
+.icon ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.icon a {
+  margin: 10px;
+  color: #505f79;
+  font-size: 20px;
+}
+
+.icon a:hover {
+  cursor: pointer;
+  color: blue;
+}
