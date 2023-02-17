@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-<div align="center" style="font-family: Serif; font-size: 3.5em;">Mobile First Design</div>
+<h1 align="center" style="font-family: Serif; font-size: 3.5em;">Mobile First Design</h1>
 
 [![Pull Requests][pr-shield]][pr-url]
 [![Contributors][contributors-shield]][contributors-url]
