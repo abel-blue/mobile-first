@@ -6,6 +6,26 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
+}
+
+.abt-card {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+    "card"
+    "card"
+    "card";
+  gap: 1px;
+}
+
 .body h1 {
   color: #172b4d;
   font-family: "Inter", sans-serif;
@@ -13,6 +33,7 @@
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
+  max-width: 400px;
 }
 
 .menu {
@@ -165,12 +186,7 @@
       "card"
       "card"
       "card";
-  }
-
-  .abt-main {
-    background-image: url(./assets/1-\ about\ me-mobile.png);
-    background-repeat: no-repeat;
-    background-position: right 0%;
+    gap: 1px;
   }
 
   form {
@@ -180,6 +196,17 @@
   .white-color {
     color: rgb(129, 129, 129);
     size: 200%;
+  }
+
+  .card h1 {
+    color: #344563;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    align-items: center;
   }
 }
 
@@ -313,11 +340,14 @@
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #d0d9d4;
   margin: 30px;
   background: #ebf0ee;
-  height: 350px;
-  width: 310px;
   border-radius: 20px;
+  text-align: center;
 }
 
 .card h1 {
@@ -327,6 +357,8 @@
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
+  text-align: center;
+  align-items: center;
 }
 
 .card ul {
@@ -442,7 +474,7 @@ form {
   margin-bottom: 10px;
   border: none;
   border-radius: 1px;
-  background: #d0dfe8;
+  background: #e0e4e6;
 }
 
 .form-inner textarea {
@@ -451,4 +483,123 @@ form {
 
 .grey {
   color: grey;
+}
+
+@media screen and (min-width: 375px) and (max-width: 786px) {
+  .header.h1 {
+    width: 375px;
+    height: 97px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #172b4d;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding-left: 20px;
+  }
+
+  p {
+    width: 380px;
+    height: 164px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    align-items: center;
+    text-align: center;
+    border-width: 80%;
+    color: #172b4d;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .pointer li {
+    list-style-type: none;
+    color: white;
+  }
+
+  .pointer a:hover {
+    cursor: pointer;
+    color: rgb(190, 190, 214);
+  }
+
+  .pointer.i {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: calc(50% - 40px / 2 + 0.5px);
+    bottom: 4px;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 32px;
+  }
+
+  .pointer {
+    margin-top: 80px;
+    color: white;
+  }
+
+  .white-color {
+    color: rgb(129, 129, 129);
+    size: 200%;
+  }
+
+  .abt-main.p {
+    width: 380px;
+    height: 189px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #42526e;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .abt-mainn {
+    background-image: url(./assets/illustration\ 1-\ about\ me-mobile.png), url(./assets/illustration\ 2-about\ me\ mobile.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right top, left bottom;
+    max-height: fit-content;
+  }
+
+  .abt-main button {
+    border: 1px solid #36b37f;
+    width: 160px;
+    height: 50px;
+    border-radius: 4px;
+    background: #36b37f;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff;
+    padding: 12px;
+  }
+
+  .header h1 {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #172b4d;
+    margin-top: 50px;
+    padding: 20px;
+  }
 }
