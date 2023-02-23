@@ -432,7 +432,29 @@ textarea {
     text-align: left;
   }
 
+  :-moz-placeholder {
+    text-align: left;
+  }
 
+  .form-inner textarea {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    align-items: start;
+    color: #091e42;
+  }
+
+  .form-inner input,
+  .form-inner textarea {
+    box-sizing: border-box;
+    background: #fff;
+    border: 1px solid #c8cfcb;
+    border-radius: 4px;
+    text-indent: 0;
+  }
+  
   p {
     width: 380px;
     height: 164px;
