@@ -523,7 +523,8 @@ textarea {
   }
 
   .abt-mainn {
-    background-image: url(./assets/illustration\ 1-\ about\ me-mobile.png), url(./assets/illustration\ 2-about\ me\ mobile.png);
+    background-image: url(./assets/illustration\ 1-\ about\ me-mobile.png),
+      url(./assets/illustration\ 2-about\ me\ mobile.png);
     background-repeat: no-repeat, no-repeat;
     background-position: right top, left bottom;
     max-height: fit-content;
@@ -636,4 +637,8 @@ form {
 .form-inner textarea {
   resize: none;
   color: #091e42;
+}
+
+.form-inner ul {
+  list-style: none;
 }
