@@ -97,8 +97,15 @@ Start python server and open http://localhost:8000
 
 ## 👤 Author <a name="authors"></a>
 
-- GitHub: [@abel-blue](https://github.com/abel-blue)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abel-mitiku-2b95bb215/)
+**Abel Mitiku**
+
+- [Github](https://github.com/abel-blue)
+- [LinkedIn](https://www.linkedin.com/in/abel-mitiku-2b95bb215/)
+
+**Dagmawi Yohannes**
+
+- [Github](https://github.com/dagmawiii03)
+- [LinkedIn](linkedin.com/in/dagmawi-yohannes-b36488236)
 
 ## 🔭 Future Features <a name="future-features"></a>
 

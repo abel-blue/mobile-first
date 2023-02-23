@@ -417,6 +417,44 @@ textarea {
     padding-left: 20px;
   }
 
+  .form-inner input {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #6b778c;
+  }
+
+  ::-webkit-input-placeholder {
+    text-align: left;
+  }
+
+  :-moz-placeholder {
+    text-align: left;
+  }
+
+  .form-inner textarea {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    align-items: start;
+    color: #091e42;
+  }
+
+  .form-inner input,
+  .form-inner textarea {
+    box-sizing: border-box;
+    background: #fff;
+    border: 1px solid #c8cfcb;
+    border-radius: 4px;
+    text-indent: 0;
+  }
+
   p {
     width: 380px;
     height: 164px;
@@ -515,4 +553,91 @@ textarea {
     margin-top: 50px;
     padding: 20px;
   }
+}
+
+form {
+  position: relative;
+  width: 100%;
+  border-radius: 1px;
+  background: #fff;
+}
+
+.form-left-decoration,
+.form-right-decoration {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  border-radius: 1px;
+  background: #fff;
+}
+
+.form-left-decoration {
+  bottom: 60px;
+  left: -30px;
+}
+
+.form-right-decoration {
+  top: 60px;
+  right: -30px;
+}
+
+.form-left-decoration::before,
+.form-left-decoration::after,
+.form-right-decoration::before,
+.form-right-decoration::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  border-radius: 1px;
+  background: #fff;
+}
+
+.form-left-decoration::before {
+  top: -20px;
+}
+
+.form-left-decoration::after {
+  top: 20px;
+  left: 10px;
+}
+
+.form-right-decoration::before {
+  top: -20px;
+  right: 0;
+}
+
+.form-right-decoration::after {
+  top: 20px;
+  right: 10px;
+}
+
+.form-inner {
+  padding: 40px;
+}
+
+.form-inner input,
+.form-inner textarea {
+  display: flex;
+  align-items: start;
+  width: 100%;
+  font-weight: 400;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  background: #fff;
+  box-sizing: border-box;
+  border: 1px solid #d0d9d4;
+  direction: ltr;
+  text-indent: 0;
+}
+
+.form-inner textarea {
+  resize: none;
+  color: #091e42;
+}
+
+.form-inner ul {
+  list-style: none;
 }
