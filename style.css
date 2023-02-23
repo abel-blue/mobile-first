@@ -454,7 +454,7 @@ textarea {
     border-radius: 4px;
     text-indent: 0;
   }
-  
+
   p {
     width: 380px;
     height: 164px;
@@ -523,7 +523,8 @@ textarea {
   }
 
   .abt-mainn {
-    background-image: url(./assets/illustration\ 1-\ about\ me-mobile.png), url(./assets/illustration\ 2-about\ me\ mobile.png);
+    background-image: url(./assets/illustration\ 1-\ about\ me-mobile.png),
+      url(./assets/illustration\ 2-about\ me\ mobile.png);
     background-repeat: no-repeat, no-repeat;
     background-position: right top, left bottom;
     max-height: fit-content;
@@ -553,4 +554,62 @@ textarea {
     margin-top: 50px;
     padding: 20px;
   }
+}
+
+form {
+  position: relative;
+  width: 100%;
+  border-radius: 1px;
+  background: #fff;
+}
+
+.form-left-decoration,
+.form-right-decoration {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  border-radius: 1px;
+  background: #fff;
+}
+
+.form-left-decoration {
+  bottom: 60px;
+  left: -30px;
+}
+
+.form-right-decoration {
+  top: 60px;
+  right: -30px;
+}
+
+.form-left-decoration::before,
+.form-left-decoration::after,
+.form-right-decoration::before,
+.form-right-decoration::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  border-radius: 1px;
+  background: #fff;
+}
+
+.form-left-decoration::before {
+  top: -20px;
+}
+
+.form-left-decoration::after {
+  top: 20px;
+  left: 10px;
+}
+
+.form-right-decoration::before {
+  top: -20px;
+  right: 0;
+}
+
+.form-right-decoration::after {
+  top: 20px;
+  right: 10px;
 }
