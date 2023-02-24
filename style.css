@@ -89,7 +89,7 @@ body {
   color: blue;
 }
 
-@media (max-width: 770px) {
+@media (max-width: 768px) {
   .h-menu {
     display: flex;
     justify-content: space-between;
@@ -333,11 +333,11 @@ body {
   color: #fff;
 }
 
-.abt-main button:hover {
+/* .abt-main button:hover {
   cursor: pointer;
   color: blue;
   background: whitesmoke;
-}
+} */
 
 .card {
   display: flex;
@@ -523,7 +523,8 @@ textarea {
   }
 
   .abt-mainn {
-    background-image: url(./assets/illustration\ 1-\ about\ me-mobile.png), url(./assets/illustration\ 2-about\ me\ mobile.png);
+    background-image: url(./assets/illustration\ 1-\ about\ me-mobile.png),
+      url(./assets/illustration\ 2-about\ me\ mobile.png);
     background-repeat: no-repeat, no-repeat;
     background-position: right top, left bottom;
     max-height: fit-content;
@@ -640,4 +641,34 @@ form {
 
 .form-inner ul {
   list-style: none;
+}
+
+@media (min-width: 768px) {
+  .front {
+    background: #fff url(./assets/img/Header-llustration-desktop.svg) no-repeat;
+    background-size: 100%;
+    padding-bottom: 8em;
+  }
+}
+
+.front h1:first-child {
+  margin-top: 1.5em;
+}
+
+.front p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  margin: 2em 24px;
+  text-align: center;
+  color: #172b4d;
+}
+
+.front button {
+  background: none;
+}
+
+.front-nav-desktop {
+  display: none;
 }
