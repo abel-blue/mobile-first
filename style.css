@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
 
-/* General property and mobile property */
+/* General and mobile media <768px property */
 html,
 body {
   margin: 0;
@@ -272,9 +272,7 @@ span {
 
 .about-me {
   margin-top: 2em;
-  background: url(./assets/illustration\ 1-\ about\ me-mobile.svg) no-repeat
-      100% 0%,
-    url(./assets/illustration\ 2-about\ me\ mobile.svg) no-repeat 0 300px;
+  background: url(./assets/illustration\ 1-\ about\ me-mobile.svg) no-repeat 100% 0%, url(./assets/illustration\ 2-about\ me\ mobile.svg) no-repeat 0 300px;
   text-align: center;
   padding: 2em;
 }
@@ -313,10 +311,6 @@ span {
   left: calc(50% - 327px / 2);
 }
 
-.card-cat:hover {
-  box-shadow: var(--shadow);
-}
-
 .card-cat > .cat-tags > li {
   background: white;
   color: #36b37e;
@@ -347,10 +341,111 @@ span {
   align-items: center;
 }
 
-/* medium screen sizes, tablets */
+.footer-container {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background: url(./assest/illustration-contact-form.svg) no-repeat 100% 90%;
+  padding: 2em 5em;
+}
+
+.footer-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  margin-top: 2em;
+}
+
+.form-fields {
+  list-style: none;
+  display: flex;
+  width: max-content;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+input,
+textarea {
+  width: 327px;
+  padding: 1em;
+  margin: 1em 0;
+  background: #fff;
+  border: 1px solid #d0d9d4;
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: #091e42;
+}
+
+.input-email-form {
+  display: flex;
+  flex-direction: column;
+  color: #36b37e;
+}
+
+.input-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.submit-button > small {
+  padding: 0;
+  margin: 0;
+  color: #36b37e;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: left;
+}
+
+.link-mail {
+  color: #42526e;
+}
+
+/* media for medium screen sizes, tablets */
 @media screen and (min-width: 768px) {
   .phone-navigation {
     display: none;
+  }
+
+  .footer-container > .social-media {
+    margin-top: 18em;
+  }
+
+  .input-name,
+  .input-email,
+  textarea {
+    min-width: 327px;
+    width: calc(95vw - 684px);
+  }
+
+  .submit-button {
+    align-self: flex-start;
+  }
+
+  .input-name input {
+    max-width: 100%;
+    min-width: 100%;
+    width: inherit;
+  }
+
+  .footer-form {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .footer-container {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    background: url(./assets/illustration-1-contact-form-desktop.svg) no-repeat 0% 90%, url(./assets/illustration-2-contact-form-desktop.svg) no-repeat 30% 90%, url(./assets/contact\ form-illustratoin-3-desktop.svg) no-repeat 100% 90%;
   }
 
   .card-abt-me {
@@ -425,8 +520,6 @@ span {
   }
 
   .about-me {
-    background: url(./assets/illustration-about-me-2-desktop.svg) no-repeat 0%
-        20%,
-      url(./assets/illustration-about\ me-1-desktop.svg) no-repeat 100% 0%;
+    background: url(./assets/illustration-about-me-2-desktop.svg) no-repeat 0% 20%, url(./assets/illustration-about\ me-1-desktop.svg) no-repeat 100% 0%;
   }
 }
