@@ -321,6 +321,7 @@ span {
 
 .card-cat > .cat-tags > li {
   background: white;
+  color: var(--color-primary);
   font-size: 12px;
   font-weight: bold;
   letter-spacing: 1px;
