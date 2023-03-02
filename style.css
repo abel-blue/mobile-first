@@ -7,8 +7,6 @@ body {
   padding: 0;
   padding-bottom: 2em;
 
-  --shadow: 0 2px 10px -1px rgba(0, 0, 0, 0.8);
-  --shadow-accent: 0 2px 50px -1px rgba(0, 0, 0, 0.8);
   --color-primary: #227452;
 }
 
@@ -121,6 +119,10 @@ a {
 }
 
 .mobile-navigation.hide {
+  display: none;
+}
+
+label {
   display: none;
 }
 
@@ -506,6 +508,10 @@ textarea {
   .recent-works h1:first-child::after {
     content: none;
   }
+
+  label {
+    display: none;
+  }
 }
 
 /* large screen sizes, laptop */
@@ -527,5 +533,9 @@ textarea {
 
   .about-me {
     background: url(./assets/illustration-about-me-2-desktop.svg) no-repeat 0% 20%, url(./assets/illustration-about\ me-1-desktop.svg) no-repeat 100% 0%;
+  }
+
+  label {
+    display: none;
   }
 }
