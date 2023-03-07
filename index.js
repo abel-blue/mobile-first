@@ -19,3 +19,13 @@ linkPortfolio.addEventListener("click", () => {
   headerNavMobile.classList.add("hide");
   menuBtn.classList.remove("hide");
 });
+
+linkAbout.addEventListener("click", () => {
+  headerNavMobile.classList.add("hide");
+  menuBtn.classList.remove("hide");
+});
+
+linkContact.addEventListener("click", () => {
+  headerNavMobile.classList.add("hide");
+  menuBtn.classList.remove("hide");
+});
