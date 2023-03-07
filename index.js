@@ -10,3 +10,12 @@ menuBtn.addEventListener("click", () => {
   headerNavMobile.classList.remove("hide");
 });
 
+btnCloseNav.addEventListener("click", () => {
+  menuBtn.classList.remove("hide");
+  headerNavMobile.classList.add("hide");
+});
+
+linkPortfolio.addEventListener("click", () => {
+  headerNavMobile.classList.add("hide");
+  menuBtn.classList.remove("hide");
+});
